@@ -10,9 +10,9 @@ This project focuses on building a complete Azure data engineering solution inco
 *   **Azure DevOps:** Used for implementing CI/CD concepts in an Azure data engineering context . This includes using **Azure Repos** for version control, **Azure Pipelines** for building and releasing, and **Pull Requests** for code review and merging .
 *   **Azure Data Factory (ADF):** Employed as the ETL/ELT tool for data ingestion. The project focuses on building **dynamic parameterized pipelines** and implementing data validation steps . It uses **linked services** to connect to data sources like HTTP (for GitHub API) and Azure Data Lake Storage Gen2 .
 *   **Azure Databricks:** Utilized for big data transformations using **PySpark** . The project covers creating enriched entities and building Databricks workflows for dynamic data transformation . It also introduces **Delta Lake** and **Delta Live Tables** for building the Gold layer.
-*   **Azure Data Lake Storage Gen2:** Serves as the data lake for storing data in different layers (Bronze/Raw) [2, 13].
-*   **HTTP Connector:** Used in Azure Data Factory to ingest data from the GitHub API [2, 7].
-*   **Delta Lake:** Employed within Azure Databricks for reliable data lakes and building the Gold layer using Delta Live Tables [1, 9, 11].
+*   **Azure Data Lake Storage Gen2:** Serves as the data lake for storing data in different layers (Bronze/Raw) .
+*   **HTTP Connector:** Used in Azure Data Factory to ingest data from the GitHub API .
+*   **Delta Lake:** Employed within Azure Databricks for reliable data lakes and building the Gold layer using Delta Live Tables .
 *   **Delta Live Tables (DLT):** A framework within Azure Databricks used to build and manage data pipelines for the Gold layer with features like expectations for data quality and change data capture (CDC) .
 
 ## Project Architecture
